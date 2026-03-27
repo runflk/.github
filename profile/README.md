@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>runflk</h1>
+  <h1>flk</h1>
 
   <p>
     <strong>One tool. One state. Every platform.</strong>
