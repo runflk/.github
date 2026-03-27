@@ -1,0 +1,15 @@
+name: DCO Check
+
+on:
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  dco:
+    name: DCO
+    runs-on: ubuntu-latest
+    steps:
+      - name: DCO Check
+        uses: christophebedard/dco-check@v0.6.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

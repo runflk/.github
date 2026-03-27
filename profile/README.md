@@ -55,11 +55,11 @@ flk apply   # provision everything, in parallel, in the right order
 | Repo | Description | License |
 |---|---|---|
 | [flk](https://github.com/runflk/flk) | Core CLI | AGPL 3.0 |
-| [sdk](https://github.com/runflk/sdk) | SDK for building providers | Apache 2.0 |
-| [gh](https://github.com/runflk/gh) | GitHub provider | Apache 2.0 |
-| [aws](https://github.com/runflk/aws) | AWS provider | Apache 2.0 |
-| [ansible](https://github.com/runflk/ansible) | Ansible provider | Apache 2.0 |
-| [k8s](https://github.com/runflk/k8s) | Kubernetes provider | Apache 2.0 |
+| [sdk](https://github.com/runflk/sdk) | SDK for building platforms | Apache 2.0 |
+| [gh](https://github.com/runflk/gh) | GitHub platform | Apache 2.0 |
+| [aws](https://github.com/runflk/aws) | AWS platform | Apache 2.0 |
+| [ansible](https://github.com/runflk/ansible) | Ansible platform | Apache 2.0 |
+| [k8s](https://github.com/runflk/k8s) | Kubernetes platform | Apache 2.0 |
 | [docs](https://github.com/runflk/docs) | Official documentation | MIT |
 
 ---
@@ -71,7 +71,7 @@ flk is in early development and we welcome contributions of all kinds:
 - 🐛 Bug reports and fixes
 - 💡 Feature suggestions
 - 📖 Documentation improvements
-- 🔌 Provider development
+- 🔌 Platform development
 
 All contributions require a sign-off under the 
 [Developer Certificate of Origin](https://github.com/runflk/.github/blob/main/DCO).

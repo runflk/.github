@@ -1,0 +1,70 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement to flk. Please provide as much context as possible.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of flk does this relate to?
+      multiple: true
+      options:
+        - Core CLI
+        - DSL / configuration syntax
+        - State management
+        - Secret management
+        - Modules
+        - gh platform
+        - aws platform
+        - ansible platform
+        - k8s platform
+        - SDK
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this feature solve? What is the current limitation?
+      placeholder: "I'm trying to do X but flk currently doesn't support..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the feature or improvement you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: |
+        If applicable, show what the feature would look like in practice 
+        (e.g. DSL syntax, CLI command, output).
+      render: yaml
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Are there any workarounds or alternative approaches you've considered?
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true

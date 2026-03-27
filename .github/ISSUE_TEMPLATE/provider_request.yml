@@ -1,0 +1,55 @@
+name: Provider Request
+description: Request a new official flk provider
+labels: ["provider-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New official providers are created and maintained by the flk team with 
+        community contributions. Use this template to request a new provider.
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform should the provider support?
+      placeholder: "e.g. GCP, Azure, Cloudflare, DigitalOcean"
+    validations:
+      required: true
+
+  - type: input
+    id: cli
+    attributes:
+      label: Platform CLI
+      description: What is the official CLI tool for this platform?
+      placeholder: "e.g. gcloud, az, cf"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources needed
+      description: Which resource types would be most important to support first?
+      placeholder: |
+        - compute instances
+        - networking / VPC
+        - storage buckets
+        - IAM / access control
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Describe your use case and why this provider is needed.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I am willing to contribute to this provider's development.
