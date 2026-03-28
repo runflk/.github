@@ -58,11 +58,11 @@ flk apply   # provision everything, in parallel, in the right order
 |---|---|---|
 | [flk](https://github.com/runflk/flk) | Core CLI | AGPL 3.0 |
 | [sdk](https://github.com/runflk/sdk) | SDK for building platforms | Apache 2.0 |
-| [gh](https://github.com/runflk/gh) | GitHub platform | Apache 2.0 |
-| [aws](https://github.com/runflk/aws) | AWS platform | Apache 2.0 |
-| [ansible](https://github.com/runflk/ansible) | Ansible platform | Apache 2.0 |
-| [k8s](https://github.com/runflk/k8s) | Kubernetes platform | Apache 2.0 |
-| [docs](https://github.com/runflk/docs) | Official documentation | MIT |
+| [platform-gh](https://github.com/runflk/platform-gh) | GitHub platform | Apache 2.0 |
+| [platform-aws](https://github.com/runflk/platform-aws) | AWS platform | Apache 2.0 |
+| [platform-ansible](https://github.com/runflk/platform-ansible) | Ansible platform | Apache 2.0 |
+| [platform-k8s](https://github.com/runflk/platform-k8s) | Kubernetes platform | Apache 2.0 |
+| [guides](https://github.com/runflk/guides) | Documentation and examples | MIT |
 
 ---
 
