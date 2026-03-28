@@ -98,7 +98,7 @@ Watch this space — or star a repo to follow along.
     Thank you <a href="https://anthropic.com">Anthropic</a> & <a href="https://claude.ai">Claude</a>
     <br>
     Built with ❤️ ·
-    📚 <a href="https://runflk.dev">Documentation</a> ·
-    🌐 <a href="https://runflk.com">Website</a>
+    <a href="https://runflk.dev">Documentation</a> ·
+    <a href="https://runflk.com">Website</a>
   </sub>
 </div>
