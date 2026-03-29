@@ -60,7 +60,7 @@ flk apply   # provision everything, in parallel, in the right order
 | [platform-aws](https://github.com/runflk/platform-aws) | AWS platform | Apache 2.0 |
 | [platform-ansible](https://github.com/runflk/platform-ansible) | Ansible platform | Apache 2.0 |
 | [platform-k8s](https://github.com/runflk/platform-k8s) | Kubernetes platform | Apache 2.0 |
-| [guides](https://github.com/runflk/guides) | Documentation and examples | MIT |
+| [flk-guides](https://github.com/runflk/flk-guides) | Documentation and examples | MIT |
 | [runflk.dev](https://github.com/runflk/runflk.dev) | Documentation site | MIT |
 
 ---
