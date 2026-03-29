@@ -142,7 +142,7 @@ Common types:
 ## Platform development
 
 New platforms must be built using the
-[flk SDK](https://github.com/runflk/sdk).
+[flk SDK](https://github.com/runflk/flk-plugin-sdk).
 
 The SDK documentation is available at
 [runflk.dev/docs/sdk](https://runflk.dev/docs/sdk).
